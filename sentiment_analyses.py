@@ -219,9 +219,9 @@ if __name__ == "__main__":
 
 	sentiment_analyser = SentimentAnalyse()
 
-	#sentiment_analyser.load_model("model.h5")
+	sentiment_analyser.load_model("model.h5")
 
-	sentiment_analyser.generate_model(sample_size=10000, path_model_save="model.h5", verbose=2)
+	#sentiment_analyser.generate_model(sample_size=10000, path_model_save="model.h5", verbose=2)
 
 	while True:
 
